@@ -11,6 +11,18 @@
   - Run DatabaseCreation.sql found in /database/CreateDataQuerys to create the database used for the project
   - Run TableCreation.sql found in /database/CreateDataQuerys to create the tables used for the project
   - Run TableInserts.sql found in database/CreateDataQuerys to insert mock data in the tables
+
+
+### Running the project
+
+  *Using Visual Studio*
   - Run the project in Visual Studio by opening MagnifinanceSchool.sln found in /frontend
 
+  *Via bash*
+    ### WARNING: TO BE ABLE TO RUN THE PROJECT VIA SH, EITHER msbuild OR devenv MUST BE IN YOUR PATH VARIABLE
+    **On linux**
+    - Run start_application_linux.sh found in the root of the project
+    **On windows**
+    - Run start_application.sh found in the root of the project
+    
 
