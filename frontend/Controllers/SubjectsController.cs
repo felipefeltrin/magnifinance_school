@@ -7,7 +7,7 @@ namespace MagnifinanceSchool.Controllers
     [Route("[controller]")]
     public class SubjectsController : Controller
     {
-        static readonly string connectionString = @"Data Source=(LocalDB)\magnifinance_school_database;Initial Catalog=school;Integrated Security=True";
+        static readonly string connectionString = @"Data Source=(LocalDB)\magnifinanceSchoolDatabase;Initial Catalog=school;Integrated Security=True";
 
         [HttpGet]
         public IEnumerable<Subject>? GetSubjectListing()
