@@ -18,11 +18,15 @@
   *Using Visual Studio*
   - Run the project in Visual Studio by opening MagnifinanceSchool.sln found in /frontend
 
+  
+  **WARNING: TO BE ABLE TO RUN THE PROJECT VIA BASH, EITHER msbuild OR devenv MUST BE IN YOUR PATH VARIABLE**
+  
   *Via bash*
-    ### WARNING: TO BE ABLE TO RUN THE PROJECT VIA SH, EITHER msbuild OR devenv MUST BE IN YOUR PATH VARIABLE
-    **On linux**
+
+  **On linux**
     - Run start_application_linux.sh found in the root of the project
-    **On windows**
+
+  **On windows**
     - Run start_application.sh found in the root of the project
-    
+
 
