@@ -7,6 +7,7 @@
 ### Installation
   - Clone the project
   - Run create_db.sh in the root of the project in order to create a LocalDB instance with the correct name and start it shortly after
+  - Connect to the created database using (LocalDB)\magnifinanceSchoolDatabase as server name
   - Run DatabaseCreation.sql found in /database/CreateDataQuerys to create the database used for the project
   - Run TableCreation.sql found in /database/CreateDataQuerys to create the tables used for the project
   - Run TableInserts.sql found in database/CreateDataQuerys to insert mock data in the tables
