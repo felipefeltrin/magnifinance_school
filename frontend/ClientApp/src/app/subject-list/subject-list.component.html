@@ -1,0 +1,24 @@
+<table>
+  <thead>
+    <tr>
+      <td>Subject Id</td>
+      <td>Subject Name</td>
+      <td>Number of Teachers</td>
+      <td>Number of Students</td>
+      <td>Students' average grade</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let subject of subjectList">
+      <td>{{subject.subjectId}}</td>
+      <td>{{subject.subjectName}}</td>
+      <td>
+        <span *ngFor="let teacher of subject.teacherInformation">
+          {{teacher}} <br />
+        </span>
+      </td>
+      <td>{{subject.studentCount}}</td>
+      <td>{{subject.studentAvg}}</td>
+    </tr>
+  </tbody>
+</table>

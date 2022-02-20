@@ -1,0 +1,23 @@
+
+<p *ngIf="!courseList">Loading</p>
+
+<table *ngIf="courseList">
+  <thead>
+    <tr>
+      <td>Course Id</td>
+      <td>Course Name</td>
+      <td>Number of Teachers</td>
+      <td>Number of Students</td>
+      <td>Students' average grade</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let course of courseList">
+      <td>{{course.id}}</td>
+      <td>{{course.name}}</td>
+      <td>{{course.teacherCount}}</td>
+      <td>{{course.studentCount}}</td>
+      <td>{{course.studentAverage}}</td>
+    </tr>
+  </tbody>
+</table>
