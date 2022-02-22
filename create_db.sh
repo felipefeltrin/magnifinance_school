@@ -1,2 +1,0 @@
-sqllocaldb create magnifinanceSchoolDatabase
-sqllocaldb start magnifinanceSchoolDatabase
